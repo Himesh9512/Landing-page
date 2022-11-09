@@ -38,11 +38,12 @@
 
 /* || quote */
 #quote {
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 55px 300px;
+    padding: 65px 300px;
 }
 
 /* || sign up */
@@ -51,6 +52,15 @@
     justify-content: space-around;
     align-items: center;
     padding: 80px 30px;
+}
+
+/* || footer */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937; 
+    padding: 29px;
 }
 /* classes  */
 
@@ -184,10 +194,6 @@ a {
     border: 2px solid white;
     height: 28px;
     width: 80px;
-}
-
-p {
-    font-size: 12px;
 }
 
 .container div {
