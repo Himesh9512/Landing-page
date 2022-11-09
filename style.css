@@ -36,6 +36,15 @@
     padding: 30px 60px;
 }
 
+/* || quote */
+#quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 55px 300px;
+}
+
 /* classes  */
 
 /* Class :: Home section */
@@ -88,6 +97,21 @@
     color: black;
     margin-top: 14px;
     text-align: center;
+}
+
+/* class :: quote */
+
+.text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    flex: 1 0 0px;
+}
+
+#quote div {
+    display: flex;
+    gap: 14px;
+    flex-flow: column wrap;
 }
 
 /*  elements */
